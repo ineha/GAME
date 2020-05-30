@@ -1,0 +1,181 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle,white,#ffbaba);
+}
+
+#container{
+    height: 420px;
+    width: 550px;
+    background-color: #00bcd4;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 3px #005082;
+    
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color] */
+}
+#inner{
+ 
+    background-color: #ffd31d;
+     padding :11px;
+    position: absolute;
+    color: forestgreen;
+    box-shadow: 2px 2px 5px #363062;
+    left: 500px;
+   border-radius: 4px;
+   
+}
+#correct{
+    position: absolute;
+    left: 600px;
+    background-color: #21bf73;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+#wrong{
+    position: absolute;
+    left: 700px;
+    background-color: #fe346e;
+    color: white;
+    padding: 11px;
+     display: none;
+    
+}
+#question{
+    width: 450px;
+    height: 150px;
+    margin: 50px auto 10px auto;
+    background-color: mediumpurple;
+    box-shadow: 0px 4px black;
+    font-size: 100px;
+        text-align:center;
+    font-family: cursive, sans-serif;
+}
+
+
+#instruction{
+    width: 450px;
+    height: 50px;
+    background-color: plum;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px purple;
+}
+
+#choices{
+    width: 450px;
+    height: 100px;
+    margin: 5px auto;
+    
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    border-radius: 3px;
+    
+    text-align: center;
+    box-shadow: 0px 4px #5b8c5a;
+    cursor: pointer;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+#box4{
+    margin-right: 0;
+}
+.box:active{
+    box-shadow: 0px 0px #5b8c5a;
+    top: 4px;
+}
+.box:hover{
+    background-color: #4dd599;
+    color: white;
+     box-shadow: 0px 0px #5b8c5a;
+  height: 87px;
+}
+
+.box:active{
+    box-shadow: 0px 0px #5b8c5a;
+    top: 4px;
+}
+
+
+#start{
+   
+    width: 78px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #8559a5;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 3;
+    padding: 5px;
+    box-shadow: 0px 3px black;
+    text-align: center;
+    position: relative;
+    transition: all 0.4s;
+}
+#start:hover{
+    background-color: #fddb3a;
+    color: #af460f;
+     box-shadow: 0px 0px black;
+    height: 42px;
+    border-radius: 4px;
+}
+
+#time{
+    width: 152px;
+    padding: 10px;
+    position: absolute;
+    left: 820px;
+  
+background-color: #91bd3a;
+     border-radius: 3px;
+    box-shadow: 0px 3px black;
+    display: none;
+}
+
+#gameover{
+    height: 250px;
+    background: linear-gradient(#fb7b6b,#d7385e);
+    width: 500px;
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    z-index: 2;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
